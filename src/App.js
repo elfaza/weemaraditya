@@ -18,7 +18,7 @@ function App() {
         </h3>
 
           <p className="m2-txt1 txt-center p-b-48">
-            Our website is under construction, follow us for update now!
+            Our website is under construction.
         </p>
 
           <div className="flex-w flex-c-m cd100 p-b-33">
