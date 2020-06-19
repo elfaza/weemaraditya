@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.coming-soon-contact-me-icon {
+  border-radius: 100%;
+  border: 3px white solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+.coming-soon-contact-me-icon svg {
+  font-size: 30px;
+}

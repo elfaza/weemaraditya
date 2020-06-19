@@ -3,17 +3,17 @@
   "name": "This is weemar aditya personal blog",
   "icons": [
     {
-      "src": "/assets/images/icon/favicon.ico",
+      "src": "/assets/images/icons/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "/assets/images/icon/android-chrome-192x192.png",
+      "src": "/assets/images/icons/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/assets/images/icon/android-chrome-512x512.png",
+      "src": "/assets/images/icons/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
