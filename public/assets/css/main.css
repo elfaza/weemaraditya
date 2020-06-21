@@ -196,7 +196,10 @@ Primary use:
 [ Color ]*/
 .cl0 {color: #fff;}
 
-
+/*================================================================
+Color Primary: #00a1e9
+Color Secondary: #204da0
+=================================================================*/
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -207,7 +210,7 @@ Primary use:
   font-family: Lato-Regular;
   font-size: 12px;
   line-height: 1;
-  color: #846add;
+  color: #00a1e9;
   text-transform: uppercase;
 }
 
@@ -215,7 +218,7 @@ Primary use:
   font-family: Lato-Bold;
   font-size: 15px;
   line-height: 1.4;
-  color: #846add;
+  color: #00a1e9;
 }
 
 .s2-txt3 {
@@ -356,7 +359,7 @@ Primary use:
 /*---------------------------------------------*/
 .how-btn1 {
   border-radius: 35px;
-  background-color: #846add;
+  background-color: #00a1e9;
   padding-right: 20px;
   padding-left: 20px;
 }
