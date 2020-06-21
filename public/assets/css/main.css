@@ -197,8 +197,9 @@ Primary use:
 .cl0 {color: #fff;}
 
 /*================================================================
-Color Primary: #00a1e9
-Color Secondary: #204da0
+Color Primary: #00A3E9
+Color Secondary: #2857A4
+Color tertiary: #0D73B8
 =================================================================*/
 
 
@@ -210,7 +211,7 @@ Color Secondary: #204da0
   font-family: Lato-Regular;
   font-size: 12px;
   line-height: 1;
-  color: #00a1e9;
+  color: #00A3E9;
   text-transform: uppercase;
 }
 
@@ -218,7 +219,7 @@ Color Secondary: #204da0
   font-family: Lato-Bold;
   font-size: 15px;
   line-height: 1.4;
-  color: #00a1e9;
+  color: #00A3E9;
 }
 
 .s2-txt3 {
@@ -359,7 +360,7 @@ Color Secondary: #204da0
 /*---------------------------------------------*/
 .how-btn1 {
   border-radius: 35px;
-  background-color: #00a1e9;
+  background-color: #00A3E9;
   padding-right: 20px;
   padding-left: 20px;
 }
