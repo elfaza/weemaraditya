@@ -5,12 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.custom-contact-me-btn {
+  color: rgb(255, 255, 255);
+  height: 60px;
+  color: white;
+}
+
+.custom-contact-me-btn:hover {
+  background-color: #2857A4;
+  color: white;
+}
+
 
 .coming-soon-contact-me-icon {
   border-radius: 100%;
@@ -25,4 +38,22 @@ code {
 
 .coming-soon-contact-me-icon svg {
   font-size: 30px;
+}
+
+.fullscreen-bg {
+}
+
+#fullscreen-bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }

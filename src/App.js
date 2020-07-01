@@ -6,10 +6,10 @@ import PhoneIcon from '@material-ui/icons/Phone';
 function App() {
   return (
     <div className="App">
-      <div className="simpleslide100">
-        <div className="simpleslide100-item bg-img1" style={{ backgroundImage: "url('/assets/images/bg01.jpg')" }} ></div>
-        <div className="simpleslide100-item bg-img1" style={{ backgroundImage: "url('/assets/images/bg02.jpg')" }} ></div>
-        <div className="simpleslide100-item bg-img1" style={{ backgroundImage: "url('/assets/images/bg03.jpg')" }} ></div>
+      <div className="fullscreen-bg">
+        <video id="fullscreen-bg-video" autoPlay muted loop>
+          <source src="/assets/videos/default-screen.mp4" type="video/mp4" />
+        </video>
       </div>
 
       <div className="size1 overlay1">
@@ -45,7 +45,7 @@ function App() {
           </div>
 
           <div className="flex-w flex-c-m cd100 p-b-33">
-            <a href="http://wa.me/6285728282811" className="flex-c-m size3 s2-txt3 how-btn1 trans-04" style={{ color: "rgb(255, 255, 255)", height: "60px" }}>
+            <a href="http://wa.me/6285728282811" className="flex-c-m size3 s2-txt3 how-btn1 trans-04 custom-contact-me-btn">
               <div className="coming-soon-contact-me-icon">
                 <PhoneIcon />
               </div>
