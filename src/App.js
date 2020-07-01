@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <video id="fullscreen-bg-video" autoPlay muted loop>
-        <source src="/assets/videos/default-screen.mp4" type="video/mp4" />
+        <source src="/assets/videos/default-screen-compressed.mp4" type="video/mp4" />
       </video>
 
       <div className="size1 overlay1">
