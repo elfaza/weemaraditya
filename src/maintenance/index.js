@@ -1,7 +1,5 @@
-import React from './node_modules/react';
-import logo from './logo.svg';
-import './App.css';
-import PhoneIcon from './node_modules/@material-ui/icons/Phone';
+import React from 'react';
+import PhoneIcon from '@material-ui/icons/Phone';
 
 function Maintenance() {
     return (
@@ -43,7 +41,7 @@ function Maintenance() {
                     </div>
 
                     <div className="flex-w flex-c-m cd100 p-b-33">
-                        <a href="http://wa.me/6285728282811" className="flex-c-m size3 s2-txt3 how-btn1 trans-04 custom-contact-me-btn">
+                        <a href="https://t.me/weemaraditya" className="flex-c-m size3 s2-txt3 how-btn1 trans-04 custom-contact-me-btn">
                             <div className="coming-soon-contact-me-icon">
                                 <PhoneIcon />
                             </div>

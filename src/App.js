@@ -38,10 +38,10 @@ function App() {
 
                 <div className="size1 overlay1">
                     <div className="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
-                        <div class="co-hero-slide-content-1 txt-center">
+                        <div className="co-hero-slide-content-1 txt-center">
                             <h4>Portal Ukhuwah</h4>
                             <h1>Bagi semua yang berdakwah</h1>
-                            <a href="#about-me" class="btn btn-primary btn-lg" data-scroll="">Learn More</a>
+                            <a href="#about-me" className="btn btn-primary btn-lg" data-scroll="">Learn More</a>
                         </div>
                     </div>
 
@@ -88,18 +88,18 @@ apa yang kita cita-citakan Allah wujudkan: <b>Kemuliaan Islam!</b></p>
                 </div>
             </div>
 
-            <div class="cr-footer section">
-                <div class="container">
-                    <div class="row">
+            <div className="cr-footer section">
+                <div className="container">
+                    <div className="row">
 
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="cr-footer-copyright">
+                        <div className="col-sm-6 col-xs-12">
+                            <div className="cr-footer-copyright">
                                 <p>Copyright © 2018 <a href="https://weemaraditya.com/">weemaraditya</a>. All Rights Reserved.</p>
                             </div>
                         </div>
 
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="cr-footer-menu">
+                        <div className="col-sm-6 col-xs-12">
+                            <div className="cr-footer-menu">
                                 <ul>
                                     <li><a href="#"> Privacy</a></li>
                                     <li><a href="#">Terms</a></li>
