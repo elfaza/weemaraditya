@@ -1,0 +1,15 @@
+.cr-about-video::before {
+    background-color: rgba(0, 163, 233,0.2) !important;
+}
+
+.co-copyright-3 p {
+    color: #000000
+}
+
+.co-footer-social-3 a {
+    color: #000000
+}
+
+.co-isotop-item-1 a:hover .content i {
+    margin-bottom: 0px !important;
+}

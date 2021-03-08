@@ -8,7 +8,7 @@ function App() {
                     <div className="row">
                         <div className="col-12">
                             <div className="float-left">
-                                <a href="http://localhost:3000/" className="header-logo m2-txt2">
+                                <a href="/" className="header-logo m2-txt2">
                                     Weemar Aditya
                                 </a>
                             </div>
@@ -25,7 +25,7 @@ function App() {
                     <nav className="cr-menu one-page-menu">
                         <ul>
                             <li className="s2-txt1 active"><a href="#home">home</a></li>
-                            <li className="s2-txt1"><a href="#about-me">about me</a></li>
+                            {/* <li className="s2-txt1"><a href="#about-me">about me</a></li> */}
                         </ul>
                     </nav>
                 </div>
@@ -41,14 +41,14 @@ function App() {
                         <div className="co-hero-slide-content-1 txt-center">
                             <h4>Portal Ukhuwah</h4>
                             <h1>Bagi semua yang berdakwah</h1>
-                            <a href="#about-me" className="btn btn-primary btn-lg" data-scroll="">Learn More</a>
+                            <a href="#intro" className="btn btn-primary btn-lg" data-scroll="">Learn More</a>
                         </div>
                     </div>
 
                 </div>
             </div>
 
-            <div id="about-me" className="mp-about-section section pt-150 pb-150">
+            {/* <div id="about-me" className="mp-about-section section pt-150 pb-150">
                 <div className="container">
                     <div className="row justify-content-center">
 
@@ -63,9 +63,9 @@ function App() {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
-            <div className="co3-feature-project-section section pt-130 pb-90">
+            <div id="intro" className="co3-feature-project-section section pt-130 pb-90">
                 <div className="container">
                     <div className="row">
                         <div className="co3-feature-project-content col-md-6 col-12 mb-50">
@@ -78,8 +78,8 @@ apa yang kita cita-citakan Allah wujudkan: <b>Kemuliaan Islam!</b></p>
 
                         <div className="col-md-6 col-12 mb-50">
                             <div className="cr-about-video">
-                                <img src="/assets/img/creative/about/1.jpg" alt="" />
-                                <a href="/assets/videos/default-screen.mp4" className="video-popup">
+                                <img src="/assets/img/teaser_thumbnail.jpg" alt="" />
+                                <a href="/assets/videos/teaser_youtube.mp4" className="video-popup">
                                     <i className="fa fa-play-circle"></i>
                                 </a>
                             </div>
@@ -88,25 +88,44 @@ apa yang kita cita-citakan Allah wujudkan: <b>Kemuliaan Islam!</b></p>
                 </div>
             </div>
 
-            <div className="cr-footer section">
-                <div className="container">
-                    <div className="row">
-
-                        <div className="col-sm-6 col-xs-12">
-                            <div className="cr-footer-copyright">
-                                <p>Copyright © 2018 <a href="https://weemaraditya.com/">weemaraditya</a>. All Rights Reserved.</p>
+            <div class="co-portfolio-section-1 section pt-130 pb-110 bg-gray">
+                <div class="container">
+                    <div class="row" style={{ display: "block" }}>
+                        <div class="col-xs-12 text-center mb-70">
+                            <div class="co-section-title-2">
+                                <h1>QnA</h1>
+                                <p>Nam eget urna nec lectus feugiat bibendum quis at quam. Aliquam id congue tellus, et tempus lacus. Curabitur convallis faucibus ex, a congue.</p>
                             </div>
                         </div>
+                    </div>
 
-                        <div className="col-sm-6 col-xs-12">
-                            <div className="cr-footer-menu">
-                                <ul>
-                                    <li><a href="#"> Privacy</a></li>
-                                    <li><a href="#">Terms</a></li>
-                                    <li><a href="#">Help Center</a></li>
-                                    <li><a href="#">Download</a></li>
-                                </ul>
-                            </div>
+                    <div class="co-isotop-grid-1 isotop-grid row">
+                        <div class="co-isotop-item-1 isotop-item branding web col-md-4 col-sm-6 col-xs-12 mb-30">
+                            <a href="/assets/videos/teaser_youtube.mp4" className="video-popup">
+                                <img src="/assets/img/teaser_thumbnail.jpg" alt="" />
+                                <span class="content">
+                                    <i className="fa fa-play-circle"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cr-footer section">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="co-copyright-3 col-md-6 col-xs-12">
+                            <p>Copyright &copy; 2018 <a href="http://hastech.company/">Hastech</a>. All Rights Reserved.</p>
+                        </div>
+
+                        <div class="co-footer-social-3 text-right col-md-6 col-xs-12">
+                            <a href="#"><i class="icon-facebook"></i></a>
+                            <a href="#"><i class="icon-twitter"></i></a>
+                            <a href="#"><i class="icon-googleplus"></i></a>
+                            <a href="#"><i class="icon-dribbble"></i></a>
+                            <a href="#"><i class="icon-linkedin"></i></a>
                         </div>
 
                     </div>
