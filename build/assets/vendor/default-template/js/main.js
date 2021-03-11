@@ -106,8 +106,6 @@
     /*-- 
         Background Parallax
     -----------------------------------*/
-    var parallaxWindow = $('.parallax-window');
-    parallaxWindow.parallax();
 
     /*--
         Smooth Scroll
