@@ -47,6 +47,9 @@
     <!-- Custom Style css -->
     <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/assets/css/custom-style.css">
 
+    <!-- Modernizr JS -->
+    <script src="%PUBLIC_URL%/assets/vendor/default-template/js/modernizr-2.8.3.min.js"></script>
+
     <title>Weemar Aditya</title>
 </head>
 
@@ -64,22 +67,28 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 </body>
+
+
 <!--===============================================================================================-->
 <script src="%PUBLIC_URL%/assets/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
 <script src="%PUBLIC_URL%/assets/vendor/bootstrap/js/popper.js"></script>
 <script src="%PUBLIC_URL%/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-<script>
-    document.getElementById('fullscreen-bg-video').play();
-</script>
 <!--===============================================================================================-->
 <script src="%PUBLIC_URL%/assets/js/main.js"></script>
-<!-- Modernizr JS -->
-<script src="%PUBLIC_URL%/assets/vendor/default-template/js/modernizr-2.8.3.min.js"></script>
 
 <!-- Plugins js -->
 <script src="%PUBLIC_URL%/assets/vendor/default-template/js/plugins.js"></script>
 <!-- Main js -->
 <script src="%PUBLIC_URL%/assets/vendor/default-template/js/main.js"></script>
+<!-- Parallax -->
+<script>
+    $(document).ready(function () {
+        var parallaxWindow = $('.parallax-window');
+        parallaxWindow.parallax();
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+    })
+</script>
 
 </html>

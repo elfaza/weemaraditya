@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function App() {
+
     return (
         <div className="App">
             <div className="cr-header-section header-section header-transparent header-sticky section">
@@ -8,8 +9,8 @@ function App() {
                     <div className="row">
                         <div className="col-12">
                             <div className="float-left">
-                                <a href="/" className="header-logo m2-txt2">
-                                    Weemar Aditya
+                                <a href="/" className="header-logo">
+                                    <img src="/assets/img/logo/logo-checklist.png" />
                                 </a>
                             </div>
                             <div className="float-right">
@@ -24,27 +25,28 @@ function App() {
                 <div className="container">
                     <nav className="cr-menu one-page-menu">
                         <ul>
-                            <li className="s2-txt1 active"><a href="#home">home</a></li>
-                            {/* <li className="s2-txt1"><a href="#about-me">about me</a></li> */}
+                            <li className="s2-txt1"><a href="#home">home</a></li>
+                            <li className="s2-txt1"><a href="#video">video</a></li>
+                            <li className="s2-txt1"><a href="#podcast">podcast</a></li>
+                            <li className="s2-txt1"><a href="#event">event</a></li>
+                            <li className="s2-txt1"><a href="#about-me">about me</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
 
-            <div id="home">
-                <video id="fullscreen-bg-video" autoPlay muted loop>
-                    <source src="/assets/videos/default-screen.mp4" type="video/mp4" />
-                </video>
-
-                <div className="size1 overlay1">
-                    <div className="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
-                        <div className="co-hero-slide-content-1 txt-center">
-                            <h4>Portal Ukhuwah</h4>
-                            <h1>Bagi semua yang berdakwah</h1>
-                            <a href="#intro" className="btn btn-primary btn-lg" data-scroll="">Learn More</a>
+            <div id="home" className="cr-hero-section section parallax-window" data-parallax="scroll" data-speed="0.5" data-image-src="/assets/img/page-banner-bg.jpg">
+                <div className="container">
+                    <div className="row" style={{ display: "block" }}>
+                        <div id="scene" className="co-hero-slide-content-1 cr-hero-content txt-center">
+                            <div data-depth="0.5">
+                                <h4>Welcome Home</h4>
+                                <h1>Home for those who Believe</h1>
+                                <a href="#intro" className="btn btn-border-white btn-hover-cr" data-scroll>Learn More</a>
+                            </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
 
@@ -69,11 +71,10 @@ function App() {
                 <div className="container">
                     <div className="row">
                         <div className="co3-feature-project-content col-md-6 col-12 mb-50">
-                            <h4 className="m2-txt2 text-primary">Teruntuk Kita Semua yang Berdakwah</h4>
-                            <p> Dakwah itu menyatukan bukan membuat renggang, menyebarkan ilmu bukan
-                            kebencian. Maka portal ini adalah tempat kita semua berkumpul, berbagi
-                            inspirasi dan motivasi, serta terus memperbaiki gerak langkah dakwah kita agar
-apa yang kita cita-citakan Allah wujudkan: <b>Kemuliaan Islam!</b></p>
+                            <h4 className="m2-txt2 text-primary">For those who believe</h4>
+                            <p> Meyakini sesuatu adalah keniscayaan. Sebuah keharusan untuk kita bisa meniti hidup ini dengan nafas lega. Dan kelak meninggalkannya pun dengan hati yang rela.</p>
+                            <p>Entah kalian seorang atheist, agnostic, atau believer, kita punya satu hal yang sama : kita tidak mau meyakini sesuatu yang salah. Kita ingin membuktikan apa yang kita ikuti ini benar.</p>
+                            <p>Dan karena itulah saya berbagi cerita. Cerita tentang diri kita semua : dulu, kini dan nanti.</p>
                         </div>
 
                         <div className="col-md-6 col-12 mb-50">
@@ -88,22 +89,22 @@ apa yang kita cita-citakan Allah wujudkan: <b>Kemuliaan Islam!</b></p>
                 </div>
             </div>
 
-            <div class="co-portfolio-section-1 section pt-130 pb-110 bg-gray">
-                <div class="container">
-                    <div class="row" style={{ display: "block" }}>
-                        <div class="col-xs-12 text-center mb-70">
-                            <div class="co-section-title-2">
+            <div id="video" className="co-portfolio-section-1 section pt-130 pb-110 bg-gray">
+                <div className="container">
+                    <div className="row" style={{ display: "block" }}>
+                        <div className="col-xs-12 text-center mb-70">
+                            <div className="co-section-title-2">
                                 <h1>QnA</h1>
                                 <p>Nam eget urna nec lectus feugiat bibendum quis at quam. Aliquam id congue tellus, et tempus lacus. Curabitur convallis faucibus ex, a congue.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="co-isotop-grid-1 isotop-grid row">
-                        <div class="co-isotop-item-1 isotop-item branding web col-md-4 col-sm-6 col-xs-12 mb-30">
+                    <div className="co-isotop-grid-1 isotop-grid row">
+                        <div className="co-isotop-item-1 isotop-item branding web col-md-4 col-sm-6 col-xs-12 mb-30">
                             <a href="/assets/videos/teaser_youtube.mp4" className="video-popup">
                                 <img src="/assets/img/teaser_thumbnail.jpg" alt="" />
-                                <span class="content">
+                                <span className="content">
                                     <i className="fa fa-play-circle"></i>
                                 </span>
                             </a>
@@ -112,20 +113,18 @@ apa yang kita cita-citakan Allah wujudkan: <b>Kemuliaan Islam!</b></p>
                 </div>
             </div>
 
-            <div class="cr-footer section">
-                <div class="container">
-                    <div class="row">
+            <div className="cr-footer section">
+                <div className="container">
+                    <div className="row">
 
-                        <div class="co-copyright-3 col-md-6 col-xs-12">
-                            <p>Copyright &copy; 2018 <a href="http://hastech.company/">Hastech</a>. All Rights Reserved.</p>
+                        <div className="co-copyright-3 col-md-6 col-xs-12">
+                            <p>Copyright &copy; 2021 <a href="http://hastech.company/">weemaraditya</a>. All Rights Reserved.</p>
                         </div>
 
-                        <div class="co-footer-social-3 text-right col-md-6 col-xs-12">
-                            <a href="#"><i class="icon-facebook"></i></a>
-                            <a href="#"><i class="icon-twitter"></i></a>
-                            <a href="#"><i class="icon-googleplus"></i></a>
-                            <a href="#"><i class="icon-dribbble"></i></a>
-                            <a href="#"><i class="icon-linkedin"></i></a>
+                        <div className="co-footer-social-3 text-right col-md-6 col-xs-12">
+                            <a href="https://www.instagram.com/weemaraditya/" target="_blank"><i className="fa fa-instagram"></i></a>
+                            <a href="https://t.me/weemaradityachannel" target="_blank"><i className="fa fa-telegram"></i></a>
+                            <a href="https://www.youtube.com/channel/UCZ8exfNLKYBjjod86WEQCjg" target="_blank"><i className="fa fa-youtube-play"></i></a>
                         </div>
 
                     </div>
