@@ -3,7 +3,7 @@ body {
   overflow-y: auto;
 }
 
-#root, .App {
+#root, .App, #home {
     height: 100%;
 }
 

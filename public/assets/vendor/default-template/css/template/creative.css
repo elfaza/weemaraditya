@@ -137,6 +137,10 @@
   display: -ms-flexbox;
   display: flex;
   height: 100%;
+  background-image: url("/assets/img/page-banner-bg.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .cr-hero-section .container {
   margin: auto;
