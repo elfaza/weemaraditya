@@ -1,0 +1,69 @@
+.cr-about-video::before {
+    background-color: rgba(0, 163, 233,0.2) !important;
+}
+
+.co-copyright-3 p {
+    color: #000000
+}
+
+.co-footer-social-3 a {
+    color: #000000
+}
+
+.co-isotop-item-1 a:hover .content i {
+    margin-bottom: 0px !important;
+}
+
+.parallax-mirror {
+    z-index: 0 !important
+}
+
+.co-hero-slide-content-1 {
+    pointer-events: auto !important;
+    width: 100%;
+}
+
+.header-logo img {
+    height: 40px;
+    width: 40px;
+}
+
+.cr-hero-content h1 {
+    font-weight: normal !important;
+}
+
+.co-footer-social-3 a {
+    width: 32px;
+    text-align: center;
+    line-height: 27px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 50%;
+    color: black;
+}
+.co-footer-social-3 a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: inherit;
+    line-height: inherit;
+    vertical-align: inherit;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 0;
+}
+
+.cr-hero-section {
+    position: relative;
+}
+
+.cr-hero-section .container {
+    z-index: 1;
+}

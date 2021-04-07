@@ -1,58 +1,73 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import PhoneIcon from '@material-ui/icons/Phone';
+import React, { useEffect } from 'react';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+import Home from './pages';
+import About from './pages/About';
 
 function App() {
+
     return (
-        <div className="App">
-            <video id="fullscreen-bg-video" autoPlay muted >
-                <source src="/assets/videos/default-screen.mp4" type="video/mp4" />
-            </video>
-
-            <div className="size1 overlay1">
-                <div className="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
-                    <h3 className="l1-txt1 txt-center p-b-25">
-                        Coming Soon
-                    </h3>
-
-                    <p className="m2-txt1 txt-center p-b-48">
-                        Our website is under construction.
-                    </p>
-
-                    <div className="flex-w flex-c-m cd100 p-b-33">
-                        <div className="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-                            <span className="l2-txt1 p-b-9 days"></span>
-                            <span className="s2-txt1">Days</span>
-                        </div>
-
-                        <div className="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-                            <span className="l2-txt1 p-b-9 hours"></span>
-                            <span className="s2-txt1">Hours</span>
-                        </div>
-
-                        <div className="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-                            <span className="l2-txt1 p-b-9 minutes"></span>
-                            <span className="s2-txt1">Minutes</span>
-                        </div>
-
-                        <div className="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-                            <span className="l2-txt1 p-b-9 seconds"></span>
-                            <span className="s2-txt1">Seconds</span>
-                        </div>
-                    </div>
-
-                    <div className="flex-w flex-c-m cd100 p-b-33">
-                        <a href="https://t.me/weemaraditya" target="_blank" className="flex-c-m size3 s2-txt3 how-btn1 trans-04 custom-contact-me-btn">
-                            <div className="coming-soon-contact-me-icon">
-                                <PhoneIcon />
+        <Router>
+            <div className="App">
+                <div className="cr-header-section header-section header-transparent header-sticky section">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12">
+                                <div className="float-left">
+                                    <a href="/" className="header-logo">
+                                        <img src="/assets/img/logo/logo-checklist.png" />
+                                    </a>
+                                </div>
+                                <div className="float-right">
+                                    <button className="menu-toggle text-white"><i className="ion-android-menu"></i></button>
+                                </div>
                             </div>
-                            Contact me
-                        </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+
+                <div className="cr-menu-section menu-section">
+                    <div className="container">
+                        <nav className="cr-menu one-page-menu">
+                            <ul>
+                                <li className="s2-txt1"><a href="/">home</a></li>
+                                {/* <li className="s2-txt1"><a href="#video">video</a></li>
+                            <li className="s2-txt1"><a href="#podcast">podcast</a></li>
+                            <li className="s2-txt1"><a href="#event">event</a></li> */}
+                                {/* <li className="s2-txt1"><a href="/about-me">about me</a></li> */}
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <Switch>
+                    <Route path="/about-me" component={About} />
+                    <Route path="/" component={Home} />
+                </Switch>
+
+                <div className="cr-footer section">
+                    <div className="container">
+                        <div className="row">
+
+                            <div className="co-copyright-3 col-md-6 col-xs-12">
+                                <p>Copyright &copy; 2021 <a href="http://hastech.company/">weemaraditya</a>. All Rights Reserved.</p>
+                            </div>
+
+                            <div className="co-footer-social-3 text-right col-md-6 col-xs-12">
+                                <a href="https://www.instagram.com/weemaraditya/" target="_blank"><i className="fa fa-instagram"></i></a>
+                                <a href="https://t.me/weemaradityachannel" target="_blank"><i className="fa fa-telegram"></i></a>
+                                <a href="https://www.youtube.com/channel/UCZ8exfNLKYBjjod86WEQCjg" target="_blank"><i className="fa fa-youtube-play"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div >
+        </Router>
     );
 }
 

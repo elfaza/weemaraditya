@@ -276,13 +276,13 @@ Color tertiary: #0D73B8
 /*//////////////////////////////////////////////////////////////////
 [ Size ]*/
 .size1 {
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
 }
 
 .size2 {
-  width: 155px;
-  height: 155px;
+  width: 500px;
+  height: 500px;
 }
 
 .size3 {
