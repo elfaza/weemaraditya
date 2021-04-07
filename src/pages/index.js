@@ -17,7 +17,7 @@ function Home() {
                 <div className="overlay" />
             </div>
 
-            <div id="about-me" className="mp-about-section section pt-150 pb-150">
+            {/* <div id="about-me" className="mp-about-section section pt-150 pb-150">
                 <div className="container">
                     <div className="row justify-content-center">
 
@@ -31,7 +31,7 @@ function Home() {
 
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div id="intro" className="co3-feature-project-section section pt-130 pb-90">
                 <div className="container">
@@ -61,7 +61,7 @@ function Home() {
                         <div className="col-xs-12 text-center mb-70">
                             <div className="co-section-title-2">
                                 <h1>QnA</h1>
-                                <p>Nam eget urna nec lectus feugiat bibendum quis at quam. Aliquam id congue tellus, et tempus lacus. Curabitur convallis faucibus ex, a congue.</p>
+                                {/* <p>Nam eget urna nec lectus feugiat bibendum quis at quam. Aliquam id congue tellus, et tempus lacus. Curabitur convallis faucibus ex, a congue.</p> */}
                             </div>
                         </div>
                     </div>
